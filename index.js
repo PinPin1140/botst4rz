@@ -12,12 +12,12 @@ const menu = require("./lib/menu.js");
 const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
 //
-const BotName = 'ST4RZ BOT 🤖'; // Nama Bot Whatsapp
+const BotName = 'LnkyNET🤖'; // Nama Bot Whatsapp
 const instagramlu = 'https://instagram.com/bintang_nur_pradana'; // Nama Instagramlu cok
-const whatsapplu = '0819-4698-3575'; // Nomor whatsapplu cok
+const whatsapplu = '089516833542'; // Nomor whatsapplu cok
 const kapanbotaktif = '24 Jam'; // Kapan bot lu aktif
-const grupch1 = 'https://chat.whatsapp.com/FsAlnxqz6y2BhCQi5ayCLG'; // OFFICIAL GRUP LU 1
-const grupch2 = 'https://chat.whatsapp.com/KLW3UlFfeaH36Ucm5zRfCz'; // OFFICIAL GRUP LU 2
+const grupch1 = 'https://chat.whatsapp.com/LRHDKPWcnvKHOZ2o1eIGJ2'; // OFFICIAL GRUP LU 1
+const grupch2 = ''; // OFFICIAL GRUP LU 2
 //
 const
 {
@@ -209,7 +209,7 @@ var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + ta
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
 conn.sendMessage(id, menu.menu(id, BotName, corohelp, tampilTanggal, tampilWaktu, instagramlu, whatsapplu, kapanbotaktif, grupch1, grupch2) ,MessageType.text);
 }
-else if (text == '#quran'){
+else if (text == '#Quran'){
 axios.get('https://api.banghasan.com/quran/format/json/acak').then((res) => {
     const sr = /{(.*?)}/gi;
     const hs = res.data.acak.id.ayat;
@@ -635,7 +635,7 @@ conn.sendMessage(id, 'kirim #ptl cewek/cowok\n\nContoh: #ptl cewek' ,MessageType
    }
 
 
-   if (text.includes("#quotes"))
+   if (text.includes("#quotessantuy"))
    {
       var url = 'https://jagokata.com/kata-bijak/acak.html'
       axios.get(url)
